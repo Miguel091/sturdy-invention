@@ -62,7 +62,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1300px;
   position: fixed;
   z-index: 2;
 }
@@ -73,8 +73,9 @@ header {
   font-weight: 300;
 }
 .navbar i {
-  font-size: 36px;
-  display: none;
+  font-size: 40px;
+  display: flex;
+  height: 30px;
 }
 #toggle-menu {
   display: none;
@@ -103,11 +104,14 @@ header {
 
 .navbar-list {
   gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .navbar-list a {
   color: rgb(5, 2, 184);
   font-size: 14px;
+  font-weight: 600;
 }
 
 .navbar-list li:first-child > a {
@@ -473,8 +477,8 @@ main {
     transform: translateX(0%);
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
-    width: 120%;
+    background-color: rgb(229, 229, 229);
+    width: 110%;
   }
   .navbar i {
     display: block;
