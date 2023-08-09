@@ -11,6 +11,7 @@ body {
   display: flex;
   align-items: center;
   height: 100vh;
+  background-color: #24303c;
 }
 
 .contenedor {
@@ -47,10 +48,12 @@ body {
   padding: 50px;
   background-color: #24303c;
 }
-.text-formulario h2,
-p,
+.text-formulario p,
 .input label {
   color: white;
+}
+.text-formulario h2 {
+  color: rgb(214, 214, 49);
 }
 @media (min-widht: 768px) {
   .imagen-formulario {

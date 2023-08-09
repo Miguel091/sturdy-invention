@@ -14,13 +14,16 @@
   width: fit-content;
   border-radius: 1rem;
 }
+body {
+  background-color: black;
+}
 
 .container {
   display: grid;
   padding: 2px;
   height: 86vh;
   gap: 10px;
-  grid-template-columns: 350px 300px 150px 150px;
+  grid-template-columns: 350px 300px 250px 250px;
   grid-auto-rows: 1fr;
 }
 
@@ -103,6 +106,7 @@
   transform: scale(1.02);
   transition: 0.3s all ease-in;
 }
+
 /* media -------------------------------------------------------- */
 
 /* @media (max-width: 480px) {
